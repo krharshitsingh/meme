@@ -1,0 +1,33 @@
+body{
+    background-color:black;
+}
+h1{
+    text-transform:uppercase;
+    size:3rem;
+}
+#meme{
+    width:50%;
+    margin-left:25%;
+    margin-top:100px;
+    text-align:center;
+    color:white;
+    font-family: "Libre Baskerville", serif;
+
+}
+.poster{
+    width:500px;
+    border:8px solid white;
+    height: 600px;
+}
+p{
+    text-transform:capitalize;
+}
+@media(max-width:480px){
+    .poster{
+        height:200px;
+        width:200px;}
+    }
+    
+
+
+
